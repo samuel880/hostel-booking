@@ -1,13 +1,13 @@
-.booking-form{
-    margin-left: 220px; 
-    padding: 10px;
-  }
-  
-  /* booking-form */
-  .booking-form {
-    margin-bottom: 10px;
-    text-align: center;
-  }
+
+  .booking{
+    background-color: bisque;
+    width: 30%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   } 
   
   .booking-form label {
     display: block;
@@ -17,7 +17,7 @@
   .booking-form select,
   .booking-form input,
   .booking-form .react-datepicker-wrapper {
-    width: 80%;
+    width: 100%;
     padding: 8px;
     margin-bottom: 5px;
     box-sizing: border-box;

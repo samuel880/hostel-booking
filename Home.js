@@ -5,52 +5,85 @@ import hostel1 from './hostel1.png';
 import hostel2 from './hostel2.png';
 import hostel3 from './hostel3.jpg';
 import hostel4 from './hostel4.jpg';
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
 export default function Home() {
   return (
-    <div>
+    <div className='homepage'>
       <div>
-        <h2>WELCOME TO THE HOME OF HOSTELS</h2>
-        <h2>Please navigate through our lists for more </h2>
+        <h3>WELCOME TO THE HOME OF HOSTELS</h3>
+        
       </div>
-    <div className="home">
-       <p><h3>Warm Greeting</h3></p>
+      <div className="home">
+       <p><h6>Warm Greeting</h6></p>
 <p>Welcome to our cozy hostel! Your home away from home. 
 Whether you're a student, a traveler, or simply seeking a comfortable stay, 
 we're delighted to host you. Explore our modern facilities and find the perfect 
 accommodation for your needs.</p>
 
- <p><h3>Comfort and Convenience</h3></p>
-<p>Step into a world of comfort and convenience! Welcome to our hostel, 
-where modern amenities meet a welcoming atmosphere. 
-From well-designed rooms to friendly staff, we're here to make your stay memorable. 
-Feel at home, away from home.</p>
-
- <p><h3>Explore and Enjoy</h3></p>
-<p>Welcome to our vibrant hostel! Your gateway to a delightful stay. 
-Discover our diverse range of rooms, each crafted for your comfort. 
-Whether you're here for studies or leisure, we invite you to explore, 
-unwind, and enjoy the unique charm of our hostel.</p>
-
- <p><h3>Secure and Serene</h3></p>
-<p>Greetings! Nestled in the heart of [Your City], 
-our hostel offers a secure and serene haven for students and 
-travelers alike. As you embark on your journey, we extend a warm welcome. 
-Experience tranquility, modern amenities, and a sense of community here with us.</p>
      
    <Link to="/Login">Go To</Link>   
     </div>
-    <div className=''>
-    <img src={hostel1} className="emojilogo" alt="Hostel Logo" />
+    <div className='second'>
+    <img src={hostel1} className="hostel1" alt="Hostel Logo" />
     </div>
-    <div className=''>
-    <img src={hostel2} className="emojilogo" alt="Hostel Logo" />
+    <div>
+    <h5><i>Please navigate through our lists for more </i></h5>
     </div>
-    <div className=''>
-    <img src={hostel3} className="emojilogo" alt="Hostel Logo" />
+    <div className='card-container'>
+      <div className='card'>
+    <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={hostel1} className="emojilogo" alt="Hostel Logo" />
+      <Card.Body>
+        <Card.Title>Olympia</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary">More..</Button>
+      </Card.Body>
+    </Card>
     </div>
-    <div className=''>
-    <img src={hostel4} className="emojilogo" alt="Hostel Logo" />
+    <div className='card'>
+    <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={hostel2} className="emojilogo" alt="Hostel Logo" />
+      <Card.Body>
+        <Card.Title>God is Able</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary">More..</Button>
+      </Card.Body>
+    </Card>
     </div>
+    <div className='card'>
+    <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={hostel3} className="emojilogo" alt="Hostel Logo" />
+      <Card.Body>
+        <Card.Title>Nakiyingi</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary">More..</Button>
+      </Card.Body>
+    </Card>
+    </div>
+    <div className='card'>
+    <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={hostel4} className="emojilogo" alt="Hostel Logo" />
+      <Card.Body>
+        <Card.Title>JB</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary">More..</Button>
+      </Card.Body>
+    </Card>
+    </div>
+     </div>
     </div>
   );
 }

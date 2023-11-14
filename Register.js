@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import emoji from './emoji.jpg';
+import muklogo from './muklogo.png';
 import './Register.css';
 
 export default function RegisterForm() {
@@ -19,36 +19,36 @@ export default function RegisterForm() {
     <h4>Registration Form</h4>
     <div className="registration-form">
       
-      <img src={emoji} className="emojilogo" alt="logo" />
-      <h4>Full Name</h4>
+      <img src={muklogo} className="muklogo" alt="logo" />
+      <p>Full Name</p>
       <input
         type="text"
         className="full-name-input"
         value={fullName}
         onChange={(e) => setFullName(e.target.value)}
       />
-      <h4>Username</h4>
+      <p>Username</p>
       <input
         type="text"
         className="username-input"
         value={username}
         onChange={(e) => setUsername(e.target.value)}
       />
-      <h4>Email</h4>
+      <p>Email</p>
       <input
         type="email"
         className="email-input"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
       />
-      <h4>Password</h4>
+      <p>Password</p>
       <input
         type="password"
         className="password-input"
         value={password}
         onChange={(e) => setPassword(e.target.value)}
       />
-      <h4>Confirm Password</h4>
+      <p>Confirm Password</p>
       <input
         type="password"
         className="confirm-password-input"

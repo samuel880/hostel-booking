@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Sidebar.css';
+
 function Sidebar(){
 
     return(
@@ -15,6 +16,7 @@ function Sidebar(){
            <ul className="ordered">
             <li className='list-items'>
             <Link to="/">
+                
                 <i className=''></i>
                 <span className='lists'>Dashboard</span>
             </Link>
@@ -32,7 +34,7 @@ function Sidebar(){
             </Link>
             </li>
             <li className='list-items'>
-            <Link to="order">
+            <Link to="hosteldetails">
                 <i className=''></i>
                 <span className='lists'>Hostel Details</span>
             </Link>
@@ -50,7 +52,7 @@ function Sidebar(){
             </Link>
             </li>
             <li className='list-items'>
-            <Link to="login">
+            <Link to="userprofile">
                 <i className=''></i>
                 <span className='lists'>User Profile</span>
             </Link>

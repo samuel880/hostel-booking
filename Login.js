@@ -1,7 +1,9 @@
 import React from 'react';
-import emoji from './emoji.jpg';
+import muklogo from './muklogo.png';
 import './Login.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from 'react-router-dom';
+import Button from 'react-bootstrap/Button';
 
 export default function LoginForm() {
   const handleLogin = (event) => {
@@ -14,19 +16,25 @@ export default function LoginForm() {
       <h4>Please login here</h4>
     <div className="loginform">
       
-      <img src={emoji} className="emojilogo" alt="logo" />
-      <h4>Username</h4>
+      <img src={muklogo} className="muklogo" alt="logo" />
+      <p>Username</p>
       <input type="text" className="username-input" />
-      <h4>Password</h4>
+      <p>Password</p>
       <input type="password" className="password-input" />
       
       <div className="d-grid gap-2">
-      <button className="loginbutton" onClick={handleLogin}>
+      {/* <button className="loginbutton" onClick={handleLogin}>
         Login
-      </button>
+      </button> */}
+      <Button variant="primary" size="lg" onClick={handleLogin}>
+        Primary button
+      </Button>{' '}
     </div>
-      <p>Click on an emoji to view the emoji short name.</p>
+      <Link to="/Register"><div className='signup'>Don't have an account?</div></Link>
+      <Link to=""><div className='signup'>Forgot password?</div></Link>
       </div>
+      
+      
     </div>
   );
 }

@@ -1,15 +1,65 @@
-.home {
-    padding: 20px;
-  }
+.left-element {
+  float: left; /* or use flexbox/grid to position it */
+  width: 20%; /* Adjust the width as needed */
+}
+
+.homepage {
+  margin-left: 20%; /* Adjust the margin to keep space between left element and homepage */
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adjust as needed */
+}
+
+.card {
+  width: calc(33.33% - 10px); /* Three cards in a row with some spacing */
+  margin-bottom: 20px; /* Adjust as needed */
+  box-sizing: border-box;
+ 
+}
+
+.hostel1 {
+  width: 700px; 
+  height: 700px; 
+  display: block; 
+  
+}
+
+
+
+
+
+/* .homepage{
+  margin-left: 220px;
+}
+
+.home{
+  
+  padding: 20px;
+}
   
   .home p {
     margin-bottom: 10px;
   }
   
-  .emojilogo {
+  .second{
+    padding: 20px;
+    margin-right: 7px;
+    display: flex;
+  } */
+
+  /* .third{
+    
+    margin-right: 7px;
+    
+  } */
+  /* .emojilogo {
     width: 100%;
-    max-width: 400px; /* Adjust this value based on your design */
+    max-width: 400px; /* Adjust this value based on your design 
     height: auto;
     margin-bottom: 20px;
     margin-left: 220px;
-  }
+  } */
+
