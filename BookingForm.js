@@ -23,6 +23,7 @@ const BookingForm = () => {
   return (
     
     <form onSubmit={handleFormSubmit}>
+      <div className='booking'>
       <div className='booking-form'>
         <div><h2>Book Here</h2></div>
         <label>Check-In Date:</label>
@@ -62,7 +63,7 @@ const BookingForm = () => {
       </div>
 
       <button type="submit" className="book-now" onclick={handleFormSubmit}>Book Now</button>
-      
+      </div>
     </form>
   );
 };
