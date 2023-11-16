@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import muklogo from './muklogo.png';
+import muklogo from './Images/muklogo.png';
 import './Register.css';
 
 export default function RegisterForm() {

@@ -1,19 +1,25 @@
 
   .header {
-    /* background-color: #333; */
-    padding: 10px;
+    
+    margin-top: -50px;
+    padding: 0px;
     margin-left: 200px; 
   }
   
   .nav-list {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
   }
   
   .nav-item {
     display: inline;
     margin-right: 10px;
+    float: right;
+    margin-left: 10px;
   }
   
   .nav-link {
@@ -22,3 +28,23 @@
     font-size: 18px;
     padding: 10px;
   }
+
+  .twologo{
+    display: flex;
+    margin-top: 5%;
+  }
+
+  .muklogo1{
+    width: 100px;
+    align-items: center;
+  }
+
+  
+  /* placing contents in the middle */
+  .place{
+      align-items: center; 
+      justify-content: center; 
+      text-align: center;
+    }
+
+  

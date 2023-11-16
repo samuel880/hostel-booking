@@ -1,5 +1,5 @@
 import React from 'react';
-import muklogo from './muklogo.png';
+import muklogo from './Images/muklogo.png';
 import './Login.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
@@ -27,7 +27,7 @@ export default function LoginForm() {
         Login
       </button> */}
       <Button variant="primary" size="lg" onClick={handleLogin}>
-        Primary button
+        Login
       </Button>{' '}
     </div>
       <Link to="/Register"><div className='signup'>Don't have an account?</div></Link>
