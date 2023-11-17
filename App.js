@@ -1,17 +1,35 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./App.css";
 import Sidebar from './Components/Sidebar';
+// import { useState } from 'react';
+import Header from './Components/Header';
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import Home from './Components/Home';
 import Register from './Components/Register';
 import Login from './Components/Login';
 import BookingForm from './Components/BookingForm';
 import HostelLists from './Components/HostelLists';
+import HostelDetails from './Components/HostelDetails';
+import UserProfile from './Components/UserProfile';
+
+
 function App(){
+
+       const [token, setToken] = useState(null);
+
+
+       if(!token) {
+        return <Login setToken={setToken} />
+       }
+
+
+     
 return (
        <BrowserRouter>
        <div>
+              
             <div>
+              <Header />
               <Sidebar />
             </div> 
             <div>
@@ -22,6 +40,8 @@ return (
                      <Route path='/login' element={<Login />}></Route>
                      <Route path='/bookingform' element={<BookingForm />}></Route>
                      <Route path='/hostellists' element={<HostelLists />}></Route>
+                     <Route path='/userprofile' element={<UserProfile />}></Route>
+                     <Route path='/hosteldetails' element={<HostelDetails />}></Route>
               </Routes>
             </div> 
        </div>
