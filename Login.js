@@ -6,13 +6,19 @@ import { Link } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
 
 export default function LoginForm() {
-  const handleLogin = (event) => {
-    // Add your login logic here
+
+   const handleLogin = (event) => {
+
+
+    
     alert('Login button clicked');
-  };
+
+   
+   };
 
   return (
     <div>
+     
       <h4>Please login here</h4>
     <div className="loginform">
       
@@ -25,10 +31,12 @@ export default function LoginForm() {
       <div className="d-grid gap-2">
       {/* <button className="loginbutton" onClick={handleLogin}>
         Login
-      </button> */}
-      <Button variant="primary" size="lg" onClick={handleLogin}>
+      </button>  */}
+       <Button  onClick={handleLogin}> 
+
+    
         Login
-      </Button>{' '}
+      </Button>{' '} 
     </div>
       <Link to="/Register"><div className='signup'>Don't have an account?</div></Link>
       <Link to=""><div className='signup'>Forgot password?</div></Link>

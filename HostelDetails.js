@@ -14,11 +14,11 @@ import DreamWorld from './Images/DreamWorld.PNG';
 import CastleVille from './Images/CastleVille.PNG';
 import Apex from './Images/Apex.PNG';
 import muklogo from './Images/muklogo.png';
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
+// import Button from 'react-bootstrap/Button';
+// import Card from 'react-bootstrap/Card';
+import { Card, Button } from 'react-bootstrap';
 
-
-export default function Home() {
+export default function HostelDetails() {
   return (
     <div className='homepage'>
       <div>

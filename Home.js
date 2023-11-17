@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Home.css';
-import emoji from './Images/emoji.jpg';
+// import emoji from './Images/emoji.jpg';
 import Olympia from './Images/Olympia.PNG';
 
 export default function Home() {
   return (
     <div className='homepage'>
-<img src={emoji} className="emoji" alt="logo" />
+{/* <img src={emoji} className="emoji" alt="logo" /> */}
       <div className="home">
        <p><h6>Warm Greeting</h6></p>
           <p>Welcome to our cozy hostel! Your home away from home. 
