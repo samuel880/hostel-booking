@@ -65,3 +65,13 @@ export default HostelLists;
       //Olympia hostel stands in a haze of its own among the many hostel structures in its neighborhood.
       //It is the “king of hostels” according to students residing in nearby facilities.
   //Samuel how is this information about Olympia hostel
+
+//Olympia Hostel is one of the best hostels in Makerere, Kikoni.
+
+/Location: 20metres off Kimera road Kikoni Makerere
+
+//Occupants: Mixed
+
+//Services available: Chooking gas, wide parking space, beds, 
+  //cable TV per room, wodrope  salon, transport facility restaurant, 
+  //grocery store (supermarket), gym and many more
