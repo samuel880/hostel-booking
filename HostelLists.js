@@ -56,3 +56,12 @@ const HostelLists = () => {
 };
 
 export default HostelLists;
+
+
+//Twinkling walls meet the eyes of an onlooker from a distance as one walks along Kimera road off sir Apollo kagwa road towards greater Kikoni Makerere area. 
+    //This magnificent structure is home to hundreds of university students in the name of Olympia Hostel.
+
+//The ambiance it paints from a distance entirely matches with its interior features.
+      //Olympia hostel stands in a haze of its own among the many hostel structures in its neighborhood.
+      //It is the “king of hostels” according to students residing in nearby facilities.
+  //Samuel how is this information about Olympia hostel
