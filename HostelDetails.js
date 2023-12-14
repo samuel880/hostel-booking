@@ -234,3 +234,37 @@ export default function HostelDetails() {
     </div>
   );
 }
+
+
+//Dreamworld hostel located in Makerere Kikoni just off Sir Apollo Kaggwa road.
+ // It is one of those decent hostels one can always opt for if looking for a campus experience at an affordable cost. 
+    //Its double rooms go for a fee of 650,000 shillings and 750,000 shillings that is with and without a balcony respectively.
+   // A single room is at 1,250,000 million shillings. 
+  //It is one of the few hostels with fair rates amongst the different hostels around Makerere University.
+//A number of the rooms are spacious enough and self contained while a few of them are not depending on how deep one’s pockets are.
+//Access to the balcony is a big deal at dreamworld as seen in the premium paid by those interested in rooms that have a balcony.
+//All payments are made to the custodian who also doubles as the accountant receiving both booking fees and full payments.
+//In order to secure a place at this hostel, one has to pay booking fees of 
+  //200,000 shillings for the double room or 300,000 shillings for the single and this is on a first come first served basis.
+//When it comes to the issue of meals. there is no need for one to walk all over kikoni searching for what to eat as the hostel has its own canteen and restaurant. 
+//The restaurant serves a wide range of local delicacies that are rotated on a daily basis and also does door to door delivery at no extra cost.
+
+//Dreamworld hostel has a team of security personnel who ensure that the safety of the residents is observed. 
+//The askaris make sure that every guest that walks through the gate is registered and identified and that they do not exceed their visitation hours that is past 11pm.
+//However, there is a gray area when it comes to sleep overs since depending on which askari is on duty a visitor can bribe his way to spending a night or two over without any interference from the security guards.
+
+
+//Located in Kavule
+
+//This hostel was constructed in 2013, 3 years back. Its visibly a a mansion and accommodates around 500 students with enough big rooms. Olympia is the best place to stay, it has all the facilities that enable us pass. We are fully satisfied with all that we want. For example, a swimming pool, gym, free kitchens on every flow, free WiFi or internet and so much more.
+
+//Unit types at property
+
+//Nakiyingi HOSTEL offers a variety of unit types to suit your needs. Below are the different types of units and the rent fees for each unit.
+
+//Self-contained singles UGX 1400000 
+
+//Self-contained Doubles UGX 900000 
+
+//Not Self-contained Doubles UGX 700000 
+
