@@ -1,0 +1,88 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+
+ ul {
+  display: flex;
+  padding: 0;
+ }
+ li {
+  margin: 0 20px;
+  list-style: none;
+  padding: 0;
+ }
+
+h4 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+p {
+  font-size: 14px;
+  color: #777;
+  margin-top: 10px;
+}
+
+/* INDIVIDUAL HOSTELS STYLINGS */
+.hostels{
+  margin-left: 20%;
+  text-align: center;
+}
+
+.biggerlogo{
+  width: 30%;
+}
+
+.smallerlogo{
+  width: 60%;
+}
+
+
+/* SEARCH */
+.search{
+  width: 40%;
+  float: right;
+  margin-right: 5%;
+  margin-top: -6%;
+  margin-left: 0;
+  border-radius: 30px;
+  border: 1px solid;
+}
+
+.about{
+  margin-left: 20%;
+  /* font-weight: bold; */
+  font-size:larger;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact{
+  margin-left: 20%;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+h2{
+  text-align: center;
+}
+
+

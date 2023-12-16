@@ -1,0 +1,92 @@
+.hostellists{
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h3 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+.hostellists {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hostellists h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.hostellists input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.hostellists button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.hostellists button:hover {
+  background-color: #0056b3;
+}
+
+.hostellists ul {
+  list-style: none;
+  padding: 0;
+}
+
+.hostellists li {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.hostellists h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.hostellists p {
+  margin: 0;
+  color: #666;
+}
+
+/* Style for the "No hostels found" message */
+.hostellists p.no-results {
+  font-style: italic;
+  color: #999;
+}
+
+
+.hostelSearch{
+  border-radius: 1px solid;
+  width: 100px;
+  margin-top: 2%;
+  margin-bottom: 30%;
+  
+}
+
+.searchButton{
+  margin-bottom: 100%;
+  max-width: 15%;
+  float: right;
+}

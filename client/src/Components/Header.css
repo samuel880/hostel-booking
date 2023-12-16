@@ -1,0 +1,57 @@
+
+  .header {
+    
+    margin-top: 8%;
+    padding: 0px;
+    margin-left: 200px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .nav-item {
+    display: inline;
+    margin-right: 10px;
+    float: right;
+    margin-left: 10px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .twologo{
+    display: flex;
+    margin-top: 5%;
+  }
+
+  .muklogo1{
+    width: 100px;
+    align-items: center;
+  }
+
+  .wrapper{
+    /* background-color: bisque; */
+    margin-top: -9%;
+    margin-bottom: 2%;
+  }
+
+  
+  /* placing contents in the middle */
+  .place{
+      align-items: center; 
+      justify-content: center; 
+      text-align: center;
+    }
+
+  
