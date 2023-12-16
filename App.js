@@ -120,3 +120,5 @@ function Order(){
 
 // export default App;
 //Organise the folders well samuel, i want to clone them and upload new changes
+
+// so we need to rearrange all the files
