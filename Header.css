@@ -21,6 +21,8 @@
     float: right;
     margin-left: 10px;
   }
+//this is our styling sheet for our header section
+//it includes styling for the nav-list,nav-item,the header
   
   .nav-link {
     text-decoration: none;
