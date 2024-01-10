@@ -80,3 +80,4 @@ const UserProfile = () => {
 
 export default UserProfile;
 //This is our javascript page for our user profile page
+//It contains the form data to be included and the different labels to be included on each form
