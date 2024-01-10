@@ -79,3 +79,4 @@ const UserProfile = () => {
 };
 
 export default UserProfile;
+//This is our javascript page for our user profile page
