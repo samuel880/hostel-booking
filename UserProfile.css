@@ -68,7 +68,8 @@ body {
     font-weight: bold;
     color: #333;
   }
-*/body {
+
+*/ body {
     font-family: 'Arial', sans-serif;
     background-color: #f8f8f8;
     margin: 0;
@@ -120,6 +121,6 @@ body {
     color: #fff;
     border: none;
     cursor: pointer;
-  }/*
+  } /*
 
   
